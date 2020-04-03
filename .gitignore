@@ -1,2 +1,4 @@
 .cache
 public
+yarn.lock
+node_modules
