@@ -1,0 +1,42 @@
+Arguments: 
+  /home/hp/.nvm/versions/node/v13.8.0/bin/node /usr/share/yarn/bin/yarn.js workspace www develop
+
+PATH: 
+  /home/hp/.nvm/versions/node/v13.8.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  13.8.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/hp/Documents/Github/graphQl/package.json: Unexpected string in JSON at position 200
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "graphQl",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/iamanas20/graphQl.git",
+    "author": "Anas Latique <anaslatique@gmail.com>",
+    "license": "MIT"
+    "private": true,
+    "workspaces": [
+    	"packages/*"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
