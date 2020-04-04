@@ -1,0 +1,10 @@
+[build]
+  command = "yarn build build"
+  publish="dist"
+  base = "/"
+
+# Role-based redirects does not have a 'to' property.
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 200
