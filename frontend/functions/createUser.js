@@ -1,0 +1,1 @@
+// https://github.com/netlify/netlify-faunadb-example#3-create-a-function
