@@ -13,7 +13,7 @@
     "apollo-link-ws": "^1.0.19",
     "apollo-server-lambda": "^2.11.0",
     "aws-sdk": "^2.642.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "encoding": "^0.1.12",
     "faunadb": "^2.13.1",
     "graphql": "^15.0.0",
